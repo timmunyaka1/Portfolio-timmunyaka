@@ -224,7 +224,7 @@
         {
             question: "<b>Question 13 of 20</b> <br/> What animal spoke to Balaam?  ",
             answers: {
-                a: "Ass",
+                a: "cow",
                 b: "Lion",
                 c: "Donkey",
                 d: "Horse"
