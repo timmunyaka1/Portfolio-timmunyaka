@@ -1,0 +1,205 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #1ed2ed;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #12d4f2;
+    z-index: 9;
+}
+
+.dropdown-content a {
+    color: rgb(47, 193, 230);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar li:hover .dropdown-content {
+    display: block;
+}
+
+.content {
+    display: inline-flex;
+    border-top: solid;
+}
+
+.content2 img {
+    width: 200px;
+    height: 150px;
+}
+
+.con1 {
+    display: inline-block;
+    text-align: center;
+    border-style: outset;
+    margin: 0px;
+    padding: 10px;
+}
+
+.cont1 {
+    display: inline-flex;
+    margin: 50px;
+    padding: 30px;
+}
+
+.co1 {
+    padding-right: 10px;
+    border-style: outset;
+    border-width: 5px;
+    margin: 15px;
+    margin-top: 4px;
+}
+
+.at1 {
+    display: inline-block;
+}
+
+.sect1 {
+    display: inline-flex;
+    border-bottom: solid;
+}
+
+.paragraph1,
+.paragraph2,
+.paragraph3 {
+    border-style: outset;
+    padding: 5px;
+    margin: 25px;
+}
+
+.news {
+    text-align: center;
+    margin-left: 50px;
+    border-top: solid black;
+}
+
+.election {
+    border-style: double;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    display: inline-flex;
+    text-wrap: nowrap;
+}
+
+.address {
+    margin-left: auto;
+    display: flex;
+}
+
+.joinbutton {
+    margin-top: 35px;
+    margin-left: 50px;
+    height: 25px;
+    width: 15px;
+}
+
+.join {
+    background-color: #12d4f2;
+    color: white;
+    border-style: ridge;
+    height: 50px;
+    width: 100px;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 1250px;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.cl1,
+.em1,
+.lc1,
+.join {
+    margin-left: 100px;
+}
+
+.calendar {
+    border-style: ridge;
+    background-color: rgb(7, 137, 193);
+}
+
+.academics {
+    display: flex;
+}
+
+.eng,
+.app {
+    display: block;
+    border-style: double;
+    padding: 10px;
+}
+
+.cap {
+    display: inline-flex;
+    background-color: rgb(1, 1, 79);
+    color: white;
+    font-size: medium;
+    opacity: 0.9;
+}
+
+.a1,
+.a2,
+.a3,
+.a4,
+.a5 {
+    padding: 60px;
+}
+
+.container1 {
+    background-image: url(abouttuk.png);
+}
+
+
+/* For mobile phones: */
+
+@media only screen and (max-width: 600px) {
+    /* Insert CSS rules for mobile here */
+}
+
+
+/* For tablets: */
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Insert CSS rules for tablets here */
+}
+
+
+/* For desktops: */
+
+@media only screen and (min-width: 1025px) {
+    /* Insert CSS rules for desktops here */
+}

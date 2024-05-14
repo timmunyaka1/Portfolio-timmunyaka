@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 5px;
+}
+
+body {
+    background-image: url('josh-applegate-RlqF2u8Cf08-unsplash.jpg');
+    background-repeat: repeat;
+}
+
+@media all and (max-width:700px) {
+    body {
+        background-image: url('josh-applegate-RlqF2u8Cf08-unsplash.jpg');
+        background-repeat: no-repeat;
+    }
+}
+
+@media all and (max-width:1024px) {
+    body {
+        background-image: url('josh-applegate-RlqF2u8Cf08-unsplash.jpg');
+        background-repeat: repeat-x;
+        background-color: #01084f;
+    }
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+#datetime {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100%;
+    color: blue;
+    text-align: end;
+}
+
+#displayVerse {
+    background-color: rgb(190, 244, 242);
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 20px;
+}
+
+#btn {
+    text-align: center;
+}
+
+#button {
+    padding: 1rem;
+    background-color: #01e0e7;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: large;
+    color: white;
+}
+
+
+/* Bible Quiz button */
+
+#start {
+    padding: 1rem;
+    background-color: #2ed0ec;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: large;
+    color: white;
+}
+
+#btn2 {
+    text-align: center;
+}
+
+.icon {
+    text-align: center;
+}
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.right {
+    float: right;
+}
+
+@media all and (min-width:1024px) {
+    .left {
+        float: left;
+        width: 50%;
+    }
+    .right {
+        float: right;
+    }
+}
+
+.fa-github {
+    color: white;
+}
+
+.fa-user-circle {
+    color: white;
+}
+
+
+/* Quiz css */
+
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
+body {
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    color: black;
+    font-weight: 300;
+    text-align: center;
+    background-color: #f8f6f0;
+}
+
+#heading {
+    font-weight: 300;
+    margin: 0px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #052feb;
+    color: #fff;
+}
+
+.question {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.answers {
+    margin-bottom: 20px;
+    text-align: left;
+    display: inline-block;
+}
+
+.answers label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 22px;
+    background-color: #12c4a0;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: rgb(29, 158, 29);
+}
+
+button a {
+    color: white;
+}
+
+.slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 10rem;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.active-slide {
+    opacity: 1;
+    z-index: 2;
+}
+
+.quiz-container {
+    position: relative;
+    height: 200px;
+    margin-bottom: 200px;
+    margin-top: 40px;
+}
+
+
+/* Home button at the bottom of quiz.html */
+
+.icon3 {
+    float: left;
+    padding: 5px;
+    color: white;
+}
+
+a {
+    color: white;
+}
